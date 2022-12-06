@@ -82,3 +82,7 @@ background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(226,216,189,1) 
 #copy {
     font-weight: 100;
 }
+
+#icon {
+    border-radius: 50%;
+}
