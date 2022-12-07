@@ -1,122 +1,140 @@
 .container {
-    border: solid 1px purple;
+  border: solid 1px purple;
 }
 
-.row>[class^=col]{
-    padding-top: 1em;
-    padding-bottom: 1em;
+.row > [class^="col"] {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-
 
 button.accordion-button.collapsed {
-    border-color: black;
-    font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-
+  border-color: black;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-button.accordion-button:not(.collapsed){
-    border: solid 1px black;
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.5);
+.accordion-button:focus {
+  border-color: black;
+}
+
+button.accordion-button:not(.collapsed) {
+  border: solid 1px black;
+  border-color: black;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-body {
-    background-color: darkkhaki;
+  background-color: darkkhaki;
 }
 .card-price {
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 200;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
 }
 .card-title,
 .card-text {
-    color: white;
+  color: white;
 }
 
 .card-footer {
-    background: transparent;
-    border-top: 0px;
+  background: transparent;
+  border-top: 0px;
 }
 
 .row {
-    margin-top: 5em;
-    border-radius: 10px;
+  margin-top: 5em;
+  border-radius: 10px;
 }
 .hear {
-    color: white;
+  color: white;
 }
 
-.nav-item > a{
-    color: rgb(214, 191, 160);
+.nav-item > a {
+  color: rgb(214, 191, 160);
 }
 
-.nav-item > a:hover{
-    color:white;
-    text-decoration: underline;
+.nav-item > a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 span.navbar-toggler-icon {
-    color: white;
+  color: white;
 }
 
 .homeh3headers {
-    font-weight: 200;
-    color: black;
+  font-weight: 200;
+  color: black;
+}
+
+.aboutmail {
+  font-weight: 200;
+  color: black;
+  text-decoration: none;
+}
+
+.aboutmail:hover {
+  color: green;
+  text-decoration: underline;
 }
 
 .navbar-brand {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
-.back{
-background: rgb(255,255,255);
-background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(226,216,189,1) 96%);;
+.back {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    -90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(226, 216, 189, 1) 96%
+  );
 }
 
 .footern {
-    text-align: center;
-    color: white;
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    bottom: 0;
-    letter-spacing: 1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 35px;
+  text-align: center;
+  color: white;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  letter-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 35px;
 }
 
-#webmaster {
-    font-weight: 100;
-    text-decoration: none;
+.webmaster {
+  font-weight: 100;
+  text-decoration: none;
 }
 
-#webmaster > a {
-    color: white;
-    font-weight: 100;
-    text-decoration: none;
+.webmaster > a {
+  color: white;
+  font-weight: 100;
+  text-decoration: none;
 }
 
-#webmaster > a:hover {
-    color: greenyellow;
+.webmaster > a:hover {
+  color: greenyellow;
 }
 
 #datum {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 #copy {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 #icon {
-    border-radius: 50%;
+  border-radius: 50%;
 }
